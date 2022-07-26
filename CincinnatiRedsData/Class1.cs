@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CincinnatiRedsData
 {
-    internal class Class1
+    public class Season
     {
+        public int Year { get; set; }
+
+        public int Wins { get; set; }
+
+        public int Loses { get; set; }
     }
 }
